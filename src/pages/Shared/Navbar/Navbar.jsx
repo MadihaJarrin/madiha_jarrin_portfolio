@@ -1,49 +1,47 @@
 import React from 'react'
 import { NavLink } from 'react-router'
 
+const menuColors = {
+  default: "text-white hover:text-purple-400 drop-shadow-[0_0_10px_rgba(168,85,247,0.8)]",
+}
+
 const Navbar = () => {
-    const linkStyle =
-    "px-4 py-2 text-sm font-medium transition-colors duration-200"
-
+  const links = [
+  "Home",
+  "Education",
+  "Skills",
+  "Projects",
+  "Research",
+  "Extra Curricular",
+  "Contact",
+  "Blogs",
+]
   return (
-    <nav className="w-full bg-black text-white shadow-md">
-      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        
-        {/* Logo / Name */}
-        <h1 className="text-xl font-bold tracking-wide">
-          Madiha<span className="text-indigo-400">.</span>
-        </h1>
+   <nav className="w-full bg-gray-900 shadow-lg border-b border-purple-500">
+      <div className="max-w-7xl mx-auto flex justify-center px-6 py-4">
+        {/* Centered Menu */}
+        <div className="flex flex-wrap justify-center gap-8">
+          {links.map((link, idx) => {
+            // Key for theme lookup (remove spaces & lowercase)
+            const key = link.toLowerCase().replace(/\s+/g, "")
+            const colorClass = menuColors[key] || menuColors.default
 
-        {/* Links */}
-        <div className="flex gap-6">
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              `${linkStyle} ${isActive ? "text-indigo-400" : "text-gray-300 hover:text-white"}`
-            }
-          >
-            Home
-          </NavLink>
-
-          <NavLink
-            to="/projects"
-            className={({ isActive }) =>
-              `${linkStyle} ${isActive ? "text-indigo-400" : "text-gray-300 hover:text-white"}`
-            }
-          >
-            Projects
-          </NavLink>
-
-          <NavLink
-            to="/contact"
-            className={({ isActive }) =>
-              `${linkStyle} ${isActive ? "text-indigo-400" : "text-gray-300 hover:text-white"}`
-            }
-          >
-            Contact
-          </NavLink>
+            return (
+              <NavLink
+                key={idx}
+                to={`/${link.toLowerCase().replace(/\s+/g, "-")}`} // e.g., Extra Curricular -> /extra-curricular
+                className={({ isActive }) =>
+                  `${colorClass} font-semibold text-lg transition duration-200 hover:scale-110 ${
+                    isActive ? "text-purple-400 drop-shadow-[0_0_10px_rgba(168,85,247,0.9)]" : ""
+                  }`
+                }
+              >
+                {link}
+              </NavLink>
+            )
+          })}
         </div>
-      </div>
+         </div>
     </nav>
   )
 }
