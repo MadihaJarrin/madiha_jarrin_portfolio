@@ -15,8 +15,8 @@ const Navbar = () => {
   "Skills",
   "Projects",
   "Research",
-  "Extra Curricular",
-  "Contact",
+  "Contribution",
+  "Certification",
   "Blogs",
 ]
   return (

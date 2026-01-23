@@ -18,7 +18,7 @@ const Hero = () => {
           {"Madiha Jarrin".split("").map((char, index) => (
   <motion.span
     key={index}
-    className="inline-block text-4xl md:text-6xl font-bold text-white drop-shadow-[0_0_20px_rgba(168,85,247,0.9)]"
+    className="inline-block text-4xl md:text-6xl font-bold text-white drop-shadow-[0_0_10px_rgba(168,85,247,0.8)]"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{
@@ -33,9 +33,15 @@ const Hero = () => {
           {/* <span className="text-4xl md:text-6xl font-bold text-white drop-shadow-[0_0_20px_rgba(168,85,247,0.9)]">Madiha Jarrin</span> */}
         </h1>
         <p className="mt-4 text-lg md:text-lg text-gray-400 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-           Fresh graduate from North south University in CSE, Major with Artificial Intelligence
+           {/* Fresh graduate from North south University in CSE, Major with Artificial Intelligence
             who is eager to contribute and learn in the tech world. Passionate about design and 
-            development | AI Enthusiast building interactive experiences
+            development | AI Enthusiast building interactive experiences */}
+            a fresh graduate from North South University, majoring in CSE with
+            a focus on Artificial Intelligence. I've a strong interest in data analysis
+            to uncover insights and make informed decisions. 
+            Alongside my analytical mindset, I'm passionate about design and development.
+            
+            Eager to grow and build meaningful experiences in the world
         </p>
         <motion.a
           href="#projects"
