@@ -1,5 +1,7 @@
 
 import { useState } from "react"
+import { Link } from "react-scroll"
+
 
 const menuColors = {
   default:
@@ -15,8 +17,8 @@ const Navbar = () => {
     { label: "Skills", href: "#skills" },
     { label: "Projects", href: "#projects" },
     { label: "Research", href: "#research" },
-    { label: "Contribution", href: "#contribution" },
-    { label: "Certification", href: "#certification" },
+    { label: "Involvement", href: "#involvement" },
+    { label: "Achievements", href: "#achievements" },
     { label: "Blogs", href: "#blogs" },
   ]
 
