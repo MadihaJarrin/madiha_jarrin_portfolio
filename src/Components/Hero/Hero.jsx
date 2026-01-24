@@ -4,7 +4,7 @@ import MyPhoto from '../../assets/jarrin.png'
 
 const Hero = () => {
   return (
-    <section className="w-full max-h-screen bg-gray-900 flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-12 gap-8 md:gap-12">
+    <section id="home" className="w-full max-h-screen bg-gray-900 flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-12 gap-8 md:gap-12">
       
         {/* Left Side: Text */}
       <motion.div

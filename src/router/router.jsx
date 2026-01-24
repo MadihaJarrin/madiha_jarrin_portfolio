@@ -2,6 +2,7 @@ import { createBrowserRouter} from "react-router";
 import Home from "../pages/Home/Home";
 import MainLayout from "../layouts/MainLayout";
 import Blog from "../pages/Blogs/Blog";
+import Education from "../pages/Education/Education";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ export const router = createBrowserRouter([
         path: "/home",
         Component: Home,
   },
+  
   {
         path: "/blogs",
         Component: Blog,
