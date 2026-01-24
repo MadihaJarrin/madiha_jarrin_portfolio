@@ -34,7 +34,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="w-full bg-gray-900 py-20 scroll-mt-24"
+      className="w-full bg-gray-900 pt-0 sm:pt-24 pb-8 scroll-mt-24"
     >
       <div className="max-w-6xl mx-auto px-6">
 
@@ -60,13 +60,12 @@ const Education = () => {
                whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="relative bg-white/5 border border-purple-400/30 rounded-xl p-6"
+              className="relative bg-white/5 border border-purple-400/30 rounded-xl p-6 sm:p-6"
             >
-              <span className="absolute -top-4 left-6 bg-gray-900 px-4 text-purple-400 font-semibold">
-                {edu.level}
+              <span className="absolute -top-3 left-4 sm:left-6 bg-gray-900 px-3 sm:px-4 text-sm sm:text-base text-purple-400 font-semibold">
               </span>
 
-              <h3 className="text-xl font-semibold text-white">
+              <h3 className="text-lg sm:text-xl font-semibold text-white leading-snug">
                 {edu.degree}
               </h3>
               <p className="text-gray-200 mt-2">{edu.institute}</p>
