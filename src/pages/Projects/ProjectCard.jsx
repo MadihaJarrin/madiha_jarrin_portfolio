@@ -58,7 +58,7 @@ const ProjectCard = ({ project, index }) => {
               href={project.github_server}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-purple-700/20 text-black font-semibold rounded-md hover:bg-purple-700/40 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition duration-200"
+              className="px-4 py-2 bg-amber-700/20 text-black font-semibold rounded-md hover:bg-purple-700/40 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition duration-200"
             >
               GitHub Server
             </a>
@@ -68,7 +68,7 @@ const ProjectCard = ({ project, index }) => {
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-4 py-2 bg-purple-700/20 text-black font-semibold rounded-md hover:bg-purple-700/40 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition duration-200"
+              className="px-4 py-2 bg-sky-700/20 text-black font-semibold rounded-md hover:bg-purple-700/40 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition duration-200"
             >
               Live Site
             </a>
