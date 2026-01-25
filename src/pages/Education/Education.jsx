@@ -41,12 +41,12 @@ const Education = () => {
 
         {/* Title */}
         <motion.h2
-          className="text-3xl md:text-4xl font-bold text-center text-white mb-16"
-          // className="text-3xl md:text-4xl font-bold text-center text-white mb-16 drop-shadow-[0_0_15px_rgba(168,85,247,0.7)]"
+          // className="text-3xl md:text-4xl font-bold text-center text-white mb-16"
+          className="text-3xl md:text-4xl font-bold text-center text-white mb-16 border -b-4 border-purple-600 p-2 w-max mx-auto rounded-xl"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 5 }}
+          transition={{ duration: 1 }}
         >
           Education
         </motion.h2>
@@ -62,13 +62,12 @@ const Education = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="flex-1 bg-gray-100 border border-gray-300 rounded-xl p-6 text-center md:text-left shadow-sm"
-              // className="flex-1 bg-white/5 border border-purple-400/30 rounded-xl p-6 text-center md:text-left"
+              className="relative flex-1 bg-gray-100 border border-purple-900 rounded-xl p-6 text-center md:text-left shadow-[0_0_10px_rgba(168,85,247,0.10)] hover:shadow-[0_0_20px_rgba(168,85,247,0.6)] transition-shadow duration-300"
             >
               {/* Level */}
-              <span 
-              className="text-purple-600 font-semibold text-sm sm:text-base mb-2 inline-block"
-              // className="text-purple-400 font-semibold text-sm sm:text-base mb-2 inline-block"
+              <span
+              className="absolute -top-3 left-4 sm:left-6 bg-gray-900 px-3 sm:px-4 text-sm sm:text-base text-purple-400 font-semibold" 
+              // className="text-purple-600 font-semibold text-sm sm:text-base mb-2 inline-block"
               >
                 {edu.level}
               </span>
@@ -76,7 +75,6 @@ const Education = () => {
               {/* Degree */}
               <h3 
               className="text-lg sm:text-xl font-semibold text-gray-800 leading-snug mt-1"
-              // className="text-lg sm:text-xl font-semibold text-white leading-snug mt-1"
               >
                 {edu.degree}
               </h3>
@@ -88,7 +86,6 @@ const Education = () => {
 
               {/* Year & CGPA */}
               <div 
-              className="mt-3 text-gray-700 text-sm sm:text-base space-y-1"
               // className="mt-3 text-gray-400 text-sm sm:text-base space-y-1"
               >
                 <p>📅 {edu.year}</p>
