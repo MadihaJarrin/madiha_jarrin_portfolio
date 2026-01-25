@@ -21,14 +21,14 @@ const InputField = ({ type = "text", placeholder, rows = 1 }) => (
 
 // Extendable contact info
 const contactInfo = [
-  { icon: <FaEnvelope />, text: "madiha.jarrin@example.com" },
-  { icon: <FaPhone />, text: "+880 1234 567890" },
+  { icon: <FaEnvelope />, text: "madihajarrin1@gmail.com" },
+  { icon: <FaPhone />, text: "+880 163964...." },
   { icon: <FaMapMarkerAlt />, text: "Dhaka, Bangladesh" },
 ]
 // Extendable social links
 const socialLinks = [
   { icon: <FaLinkedin />, url: "https://linkedin.com/in/yourprofile" },
-  { icon: <FaGithub />, url: "https://github.com/yourprofile" },
+  { icon: <FaGithub />, url: "hhttps://github.com/MadihaJarrin" },
 ]
 
 const Contact = () => {
@@ -50,7 +50,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          Reach Me Out
+          Reach Out to Me
         </motion.h2>
 
         <div className="flex flex-col md:flex-row gap-12">
