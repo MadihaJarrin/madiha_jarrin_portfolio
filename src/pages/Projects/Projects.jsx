@@ -50,7 +50,7 @@ const projectsData = [
 tools: ["UNet", "UNet++", "ResNet", "SwinUNet", "AttentionUNet", "DuckNet", "CBAM", "SE", "Dice/IoU/AJI/MSE Losses", "Adam Optimizer"],
     // live: "https://groovestyle-live.vercel.app/", 
     pdf: project3Pdf,
-    github: "https://github.com/MadihaJarrin/groovestyle", 
+    github: "https://github.com/MadihaJarrin", 
     // github_server: "https://github.com/MadihaJarrin/groovestyle-server", 
   },
   {
@@ -70,8 +70,8 @@ tools: ["UNet", "UNet++", "ResNet", "SwinUNet", "AttentionUNet", "DuckNet", "CBA
     ],
         
     // live: "https://groovestyle-live.vercel.app/", 
-    github: "https://github.com/MadihaJarrin/groovestyle", 
-    github_server: "https://github.com/MadihaJarrin/groovestyle-server", 
+    github: "https://github.com/MadihaJarrin", 
+    github_server: "https://github.com/MadihaJarrin", 
   },
 
 ];
