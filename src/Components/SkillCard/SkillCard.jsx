@@ -10,12 +10,12 @@ const SkillCard = ({ title, items, delay = 0 }) => {
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay }}
     >
-      <h4 className="text-purple-400 font-semibold mb-3">{title}</h4>
+      <h4 className="text-purple-400 font-bold mb-3">{title}</h4>
       <ul className="text-gray-200 flex flex-wrap gap-2">
         {items.map((item, idx) => (
           <li
             key={idx}
-            className="bg-gray-800/50 px-2 py-1 rounded-full text-sm hover:bg-purple-500 hover:text-white transition"
+            className="bg-gray-800/50 px-2 py-1 rounded-full text-base hover:bg-purple-500 hover:text-white transition"
           >
             {item}
           </li>

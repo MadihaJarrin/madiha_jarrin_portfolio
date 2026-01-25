@@ -6,8 +6,8 @@ import MyPhoto from '../../assets/jarrin.png'
 
  // Extendable social links
   const socialLinks = [
-    { icon: <FaLinkedin />, url: "https://linkedin.com/in/yourprofile" },
-    { icon: <FaGithub />, url: "https://github.com/yourprofile" },
+    { icon: <FaLinkedin />, url: "https://www.linkedin.com/in/madihajarrin1/" },
+    { icon: <FaGithub />, url: "https://github.com/MadihaJarrin" },
   ]
 
 const Hero = () => {

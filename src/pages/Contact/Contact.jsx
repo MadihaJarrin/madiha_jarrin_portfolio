@@ -42,7 +42,7 @@ const Contact = () => {
         {/* Title */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-center
-           mb-12 drop-shadow-[0_0_15px_rgba(168,85,247,0.7)]
+           mb-12 drop-shadow-[0_0_10px_rgba(168,85,247,0.5)]
            bg-gradient-to-r from-indigo-500 via-purple-500 p-1 rounded-tl-xl 
            "
           initial={{ opacity: 0, y: 20 }}
