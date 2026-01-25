@@ -79,42 +79,7 @@ const InvolvementCard = ({ role, team, org, year, img }) => {
     </>
 
 
-    // <a className="hover-3d my-6 cursor-pointer">
-    //   {/* Card */}
-    //   <div className="card w-full max-w-sm bg-black text-white
-    //     bg-[radial-gradient(circle_at_bottom_left,#ffffff08_35%,transparent_36%),radial-gradient(circle_at_top_right,#ffffff08_35%,transparent_36%)]
-    //     bg-size-[4.95em_4.95em] border border-purple-500/30 shadow-xl">
 
-    //     {/* Image */}
-    //     {img && (
-    //       <figure className="px-4 pt-4">
-    //         <img
-    //           src={img}
-    //           alt={team}
-    //           className="rounded-xl h-40 w-full object-cover"
-    //         />
-    //       </figure>
-    //     )}
-
-    //     {/* Body */}
-    //     <div className="card-body">
-    //       <div className="flex justify-between items-start mb-6">
-    //         <h3 className="font-bold text-purple-400 text-lg">{role}</h3>
-    //         <span className="text-4xl opacity-10">✦</span>
-    //       </div>
-    //        <p className="text-sm text-gray-300">{team}</p>
-
-    //       <div className="mt-6">
-    //         <p className="text-xs opacity-40">YEAR</p>
-    //         <p className="font-semibold">{year}</p>
-    //       </div>
-    //     </div>
-    //   </div>
-
-    //   {/* 3D effect helpers (required by DaisyUI) */}
-    //   <div></div><div></div><div></div><div></div>
-    //   <div></div><div></div><div></div><div></div>
-    // </a>
   )
 }
 

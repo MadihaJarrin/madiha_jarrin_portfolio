@@ -34,11 +34,9 @@ const Involvement = () => {
         
         <h2 
         className="text-3xl md:text-4xl font-bold text-center text-white mb-8 drop-shadow-[0_0_15px_rgba(168,85,247,0.7)]"
-        // className="text-3xl md:text-4xl font-bold text-center text-white mb-14"
         >
           Involvement
         </h2>
-        {/* <div className="w-24 h-1 bg-purple-500 mx-auto mb-16 rounded-full shadow-[0_0_15px_rgba(168,85,247,0.8)]"></div> */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
           {involvementData.map((item, i) => (
