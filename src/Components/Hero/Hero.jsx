@@ -1,8 +1,18 @@
 import React from 'react'
 import { motion } from "framer-motion"
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa"
+
 import MyPhoto from '../../assets/jarrin.png'
 
+ // Extendable social links
+  const socialLinks = [
+    { icon: <FaLinkedin />, url: "https://linkedin.com/in/yourprofile" },
+    { icon: <FaGithub />, url: "https://github.com/yourprofile" },
+  ]
+
 const Hero = () => {
+
+ 
   return (
     <section id="home" 
           className="w-full min-h-screen bg-gray-900 flex flex-col md:flex-row items-center px-6 md:px-20 py-10 md:py-20 gap-8 md:gap-12"
@@ -41,9 +51,10 @@ className="mt-4 text-base sm:text-lg md:text-lg text-gray-400 drop-shadow-[0_0_1
             to uncover insights and make informed decisions. 
             Alongside my analytical mindset, I'm passionate about design and development.
             
-            Eager to grow and build meaningful experiences in the world
+            Eager to grow and build meaningful experiences in the tech world
         </p>
-        <motion.a
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-6 mt-6">
+          <motion.a
           href="#projects"
                     className="mt-8 inline-block px-6 py-3 bg-white/10 text-purple-400 font-semibold rounded-md hover:bg-white/20 hover:drop-shadow-[0_0_10px_rgba(168,85,247,0.8)] transition duration-200"
 
@@ -52,6 +63,20 @@ className="mt-4 text-base sm:text-lg md:text-lg text-gray-400 drop-shadow-[0_0_1
         >
           See My Work
         </motion.a>
+          {/* Social Links */}
+            <div className="flex items-center gap-6 mt-4">
+              {socialLinks.map((item, idx) => (
+                <a
+                  key={idx}
+                  href={item.url}
+                  target="_blank"
+                  className="text-gray-200 hover:text-purple-400 transition text-3xl mt-5"
+                >
+                  {item.icon}
+                </a>
+              ))}
+            </div>
+        </div>
       </motion.div>
 
        {/* Right Side: Photo */}

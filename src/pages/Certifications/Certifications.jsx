@@ -36,7 +36,7 @@ const certifications = [
 
 const Certifications = () => {
   return (
-    <section id="achievements" className="w-full bg-gray-900 py-20 scroll-mt-24">
+    <section id="achievements" className="w-full bg-gray-900 py-12 scroll-mt-24">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-8 drop-shadow-[0_0_15px_rgba(168,85,247,0.7)]">
           Achievements
