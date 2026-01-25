@@ -1,5 +1,6 @@
 import ProjectCard from "./ProjectCard";
-import thesisPdf from "../../assets/project/pdf/499B-Final-Report.pdf"
+import project1Pdf from "../../assets/project/pdf/499B-Final-Report.pdf"
+import project3Pdf from "../../assets/project/pdf/CSE465-final-report.pdf"
 
 
 // Example project data
@@ -14,8 +15,8 @@ const projectsData = [
       "Reduces manual effort for video creators",
     ],
     tools: ["RAG", "Explainable AI", "LLM", "OpenAI API", "FAISS", "Python"],
-    // image: "https://via.placeholder.com/600x400",
-    pdf: thesisPdf,
+    image: "",
+    pdf: project1Pdf,
     github: "https://github.com/username/ai-project",
     live: "",
   },
@@ -48,8 +49,9 @@ const projectsData = [
 ],
 tools: ["UNet", "UNet++", "ResNet", "SwinUNet", "AttentionUNet", "DuckNet", "CBAM", "SE", "Dice/IoU/AJI/MSE Losses", "Adam Optimizer"],
     // live: "https://groovestyle-live.vercel.app/", 
+    pdf: project3Pdf,
     github: "https://github.com/MadihaJarrin/groovestyle", 
-    github_server: "https://github.com/MadihaJarrin/groovestyle-server", 
+    // github_server: "https://github.com/MadihaJarrin/groovestyle-server", 
   },
   {
     title: "E-commerce Platform | GrooveStyle",
@@ -66,6 +68,7 @@ tools: ["UNet", "UNet++", "ResNet", "SwinUNet", "AttentionUNet", "DuckNet", "CBA
       "React Js", "Node js",  "MongoDB" , "Express", 
       "Google OAuth", "MongoDB", "TailwindCSS", "DaisyUI",
     ],
+        
     // live: "https://groovestyle-live.vercel.app/", 
     github: "https://github.com/MadihaJarrin/groovestyle", 
     github_server: "https://github.com/MadihaJarrin/groovestyle-server", 
