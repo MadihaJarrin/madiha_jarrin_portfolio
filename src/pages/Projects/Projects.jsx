@@ -30,9 +30,9 @@ const projectsData = [
     ],
     tools: ["JavaScript","firebase", "React Router", "Bootstrap"],
     // image: "https://via.placeholder.com/600x400",
-    pdf: "/reports/speech-to-visual.pdf",
-    github: "https://github.com/username/mern-ecommerce",
-    live: "https://ecommerce.vercel.app",
+    // pdf: "/reports/speech-to-visual.pdf",
+    github: "https://github.com/MadihaJarrin/medi-care",
+    live: "https://simple-firebase-authenti-a4286.web.app/",
   },
     {
     title: "Weakly Supervised Deep Segmentation of Immunofluorescence Modalities Via Translation and Mask Fusion",
