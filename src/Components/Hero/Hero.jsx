@@ -44,9 +44,9 @@ const Hero = () => {
 ))}
         </h1>
         <p 
-className="mt-4 text-base sm:text-lg md:text-lg text-gray-400 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)] leading-relaxed"        >
+className="mt-4 text-base sm:text-lg md:text-lg text-gray-300 drop-shadow-[0_0_10px_rgba(255,255,255,0.2)] leading-relaxed"        >
      
-            a fresh graduate from North South University, majoring in CSE with
+            Graduated from North South University, majoring in CSE with
             a focus on Artificial Intelligence. I've a strong interest in data analysis
             to uncover insights and make informed decisions. 
             Alongside my analytical mindset, I'm passionate about design and development.
