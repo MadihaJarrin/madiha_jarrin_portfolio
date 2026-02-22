@@ -87,9 +87,9 @@ const Education = () => {
               {/* Year & CGPA */}
               <div 
               // className="mt-3 text-gray-400 text-sm sm:text-base space-y-1"
-              >
-                <p>📅 {edu.year}</p>
-                <p>🎓 {edu.result}</p>
+              > 
+                <p>📅 {edu.year}</p> 
+                {/* <p>🎓 {edu.result}</p> */}
               </div>
             </motion.div>
           ))}
